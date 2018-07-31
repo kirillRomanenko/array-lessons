@@ -22,3 +22,14 @@ const userOld = users.reduce(function (prev, current) {
 });
 
 console.log(userOld);
+
+console.log('Task #2\n');
+
+const resultat=users.reduce(function(a, b) { 
+    const res = (a.age + b.age)/users.length;
+    return res;
+});
+
+console.log(resultat);
+
+
